@@ -1,0 +1,181 @@
+@media only screen and (max-width: 425px){
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ .menu{
+    width: 10px;
+    height: 10px;
+} 
+.menu h1 a{
+    text-decoration: none;
+}
+
+.account{
+    display: flex;
+}
+.icon img, .avatar img{
+    width: 20px;
+    height: 20px; 
+}
+nav ul {
+ display: flex;
+}
+.select-image{
+    display: inline-flex;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+
+.display-{
+    width: 100%;
+    height: 250px;
+
+}
+.display- img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.product-details{
+    margin-top:200px;
+    padding: 20px;
+}
+
+}
+/* medium screen */
+
+@media only screen and (min-width: 426px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .menu{
+        display: none;
+    }
+
+    nav{
+        display: flex;
+    }
+    nav ul {
+     display: flex;
+    }
+
+}
+
+/* large screen */
+
+@media only screen and (min-width: 769px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    .menu{
+        width: 10px;
+        height: 10px;
+    }
+    h1{
+        padding-left: 20px;
+        margin-top: 5px; 
+        
+    }
+    nav h1 a{
+        text-decoration: none;
+        list-style: none;
+    }
+    .account{
+        display: flex;
+    }
+    .icon img, .avatar img{
+        width: 20px;
+        height: 20px; 
+    }
+    nav ul {
+     display: flex;
+     list-style-type: none;
+     gap: 40px;
+     
+    }
+    .nav ul li{
+        display: flex;
+    }
+    nav ul li a{
+        justify-content: space-between;
+        text-decoration: none;
+        gap: 20px;
+    }
+    nav ul li a:hover{
+        cursor: pointer;
+        color: goldenrod;
+    }
+    .select-image{
+        display: flex;
+        gap: 20px;
+        
+        
+    }
+    .select-image wrapper{
+        position: relative;
+        position: absolute;
+    
+    }
+    .select-image-wrapper img{
+        display: flex;
+        justify-content: right;
+         /* border: 3px solid saddlebrown;   */
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container{
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    .display-{
+        width: 100px;
+        height: 100px;
+    
+    }
+    .display- img{
+        width: 100%;
+        align-items: center;
+        
+    }
+    h4{
+        text-align: justify;
+        color: orange;
+    }
+    .product-details{
+        padding-left: 650px;
+        position: relative;
+        position: absolute;
+        right: 0px;
+        top: 100px;
+    }
+
+}

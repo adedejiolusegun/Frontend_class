@@ -1,0 +1,98 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.flex{
+    width: 300px;
+    border: 2px dotted green;
+    padding: 20px;
+}
+.flex p{
+    text-align: justify;
+}
+.flex-center{
+    display: flex;
+    justify-content:center;
+    margin: 20px;
+}
+
+.div-center{
+    width: 80%;
+    border: 3px solid yellow;
+    padding: 20px;
+   
+}
+.nav{
+
+    background-color: black;
+    color: white;
+    display: block;
+    width: 400px;
+    height: 20px;
+    position: sticky;
+    display: flex;
+    gap: 50px;
+}
+.nav a{
+    color: white;
+} 
+
+.navbar{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.navbar ul{
+    display: flex;
+    gap: 30px;
+    color: #fff;
+    list-style-type: none;
+
+}
+
+.navbar  ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr ;
+    gap: 20px;
+}
+.grid{
+    /* width: 300px; */
+    border: 2px solid blue;
+    padding: 20px;
+}
+
+.grid-wrapper{
+    display: grid;
+    place-items: center;
+}
+
+.grid-center{
+    border: 2px solid red;
+    padding: 20px;
+    width: 80%;
+    margin: 30px;
+}
+.center-div{
+    width: 100%;
+}
+.div-cent{
+    margin: 10px auto;
+    width: 80%;
+    border: solid;
+    padding: 10px;
+}
