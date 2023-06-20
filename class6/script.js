@@ -81,3 +81,56 @@ console.log(newCount)
 console.log(++newCount)
 console.log(++newCount)
 console.log(++newCount)
+
+
+// Control Flow and Functions
+// - Conditional statements (if, else if, switch)
+// - Looping statements (for, while, do while)
+// - Introduction to functions and their usage
+
+// IF STATEMENT
+// if(condition){
+//     what should happen
+// }
+
+let now = 'friday';
+if(now === 'tueday'){
+// if('friday' === 'tueday'){
+    console.log('The answer is tuesday');
+}
+
+let num = 3;
+if(num > 0){
+    console.log(`${num} is a positive number`);
+}
+
+let isRaining = true;
+if(isRaining){
+    console.log("Remember to go with an umbrella");
+}
+
+// IF ELSE STATEMENT
+
+let presentday = 'SUNDAY';
+if(presentday === 'sunday'){
+    console.log('Today is the first day of the week which is sunday');
+}else{
+    console.log('today is not sunday or something went wrong');
+}
+
+
+// IF, ELSE IF, ELSE STATEMENT
+
+let a =8990
+if(a > 0){
+    console.log(`${a} is a positive number`)
+}else if(a < 0){
+    console.log(`${a} is a negative number`)
+}else if(a === 0){
+    console.log(`${a} is zero`)
+}else{
+    console.log(`${a} is not a number`)
+}
+
+let val1 = prompt("Enter a number")
+console.log(val1 + 56)
