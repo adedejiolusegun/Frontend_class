@@ -132,5 +132,63 @@ if(a > 0){
     console.log(`${a} is not a number`)
 }
 
-let val1 = prompt("Enter a number")
-console.log(val1 + 56)
+// let val1 = prompt("Enter a number")
+// console.log(val1 + 56)
+
+// LOOP
+// for loop, while loop, and do while loop
+
+// for loop
+// for(initialization, condition , increment/decrement){
+//     whatever you want execute goes here
+// }
+
+for(let i =1; i <= 5; i++){
+    console.log(i)
+}
+
+
+for(let i = 0; i < 5; i++){
+    console.log(i)
+}
+
+for(let i = 10; i <= 50; i++){
+    console.log(i)
+}
+
+// 0*0=0
+// 1*1=1
+// 2*2=4
+// 3*3=8
+// 4*4=16
+// 5*5=25
+
+for(let i=0; i<=5; i++){
+console.log(`${i} * ${i} = ${i * i}`)
+}
+
+// while loop
+let j = 0;
+while(j <=5){
+    console.log(j)
+    j++;
+}
+
+// do while loop
+let k = 0;
+do{
+    console.log(k)
+}while(k <= 5)
+
+// function
+function theNameOfTheFunction(){
+    // code block or statement to be executed
+    // perform operation or calculation
+    // return a value
+}
+
+function multipyTwoValues(){
+    let a = 30;
+    let b = 5;
+    console.log(a * b)
+}
